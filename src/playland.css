@@ -1,0 +1,601 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dosis:wght@500&family=Fredoka+One&family=Indie+Flower&family=Raleway:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Dosis:wght@500&family=Indie+Flower&family=Raleway:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Emblema+One&family=Open+Sans:wght@300&family=Sulphur+Point:wght@700&display=swap");
+body{
+    background: #24314c;
+    font-family: "Nunito Sans", sans-serif;
+}
+.hr {
+    margin-top: 15px;
+    display: block;
+    height: 2px;
+    
+    background-color: #425277;
+    border-radius: 1px;
+    border: .2px solid #425277;
+    padding: 0;
+}
+
+.hr-Mat{
+    margin-top: -.5%;
+    opacity: 50%;
+    border-radius: 2px;
+    margin-left: -1%;
+    background-color: #1b9dfa;
+    border: 2px solid #1b9dfa;
+    box-shadow: 2px 3.5px 3px 2px rgba(0, 0, 0, 0.507);
+    
+}
+
+.h2Blue{
+    color: #1b9dfa;
+    font-size: 32px;
+    margin-left: -1%;
+}
+/**=======================
+
+            login
+
+=========================**/
+.Background{
+    z-index: -6;
+    filter: sepia(100%);
+    background-image: url("../src/images/background1.png");
+    width: 100%;
+    height: 100%;
+}
+.txtlogin{
+    vertical-align: middle;
+    font-family: FontAwesome;
+    font-family: "Nunito Sans", sans-serif;
+    box-shadow:inset 0px 0px 5px 2px rgba(0,0,0,.4);
+    display: flex;
+    height: 55px;
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color: #e6e6e6;
+    font-size: 18px;
+    text-indent: 10px;
+    border: none;
+    padding-left: 5px;
+}
+
+.btnlogin{
+    font-family: "Nunito Sans", sans-serif;
+    margin-top: 35px;
+    margin-bottom: 55px;
+    height: 55px;
+    width: 180px;
+    border-radius: 50px;
+    /*  box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.459);*/
+    background-color: rgb(230, 145, 18);
+    box-shadow: 0px 5px 4px 1px rgba(22, 22, 22, 0.473);
+    color: white;
+    border: none;
+    font-size: 17px;
+    cursor:pointer;
+    
+
+
+}
+
+.btnlogin:focus{
+    outline: none;
+}
+.btnlogin div p{
+    vertical-align: middle;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*
+.btnlogin i{
+    opacity: 0;
+    margin: 0;
+    padding: 0px;
+}
+*/
+
+/*
+.btnlogin:hover i{
+    transition: .7s;
+    opacity: 1;
+}*/
+
+ .btnlogin:hover p:after {
+    opacity: 1;
+   
+ }
+
+.btnlogin:hover{
+    transition-duration: .7s;
+    height: 60px;
+    width: 200px;
+    border: 3px solid rgba(230, 145, 18, 1);
+    border-color: 3px solid rgba(230, 145, 18, 1);
+    background-color: rgba(230, 145, 18, 0);
+    color: rgba(230, 145, 18, 1);
+    box-shadow:inset 0px 0px 4px 1px rgba(230, 145, 18, 1);
+}
+
+.btnlogin:not(hover){
+    transition-duration: .7s;
+}
+
+.lblBien{
+    text-shadow:inset rgb(72, 89, 128) 0 0 4px;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 35px;
+    letter-spacing: 4px;
+}
+
+.lblBien hr{
+    width:85%;
+    display: block;
+    height: 3px;
+    background-color: #788aaf;
+    border-radius: 5px;
+    border: .2px solid #425277;
+}
+
+
+.logindiv{
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    padding-top: 1.5%;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33%;
+    background: #485980;
+    z-index: 0;
+    box-shadow: 0px 0px 5px black;
+}
+.stripes{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    margin-left: -59%;   
+    margin-top: 15%;
+}
+.logoplayland{
+    margin-top: 3%;
+    width: 18%;
+    margin-bottom: 2%;
+}
+.logostring{
+    width: 10%;
+}
+
+/**==================
+
+        sidebar
+
+=====================**/
+.logoside{
+    
+    margin-top: 37px;
+    width: 100%;
+    height: 5%;
+    margin-bottom:2.25%;
+}
+
+.sidediv{
+    z-index: 4;
+    position: fixed;
+    text-align: center;
+    background: #121926;
+    width: 15%;
+    box-shadow: 0px 0px 5px black;
+    height: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+    font-size: 18px;
+}
+
+Link{
+    text-decoration: none;
+}
+.sidediv li div a{
+    text-decoration: none;
+    color: white;   
+    vertical-align: middle;
+}
+.sidediv ul{
+    margin-top:-8%;
+}
+.sidediv ul li{
+    vertical-align: middle;
+    list-style: none;
+    position: relative;
+    left: -40px;
+    text-align: left;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    width: 110%;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.sidediv Link{
+    margin-left: 10%;
+    text-decoration: none;
+    text-align: center; 
+}
+.sidediv ul .ingeng span{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+.sidediv ul .ingeng span:hover{
+    transition-duration: .7s;
+    color: #bb29bb;
+    font-size: 18.5px;  
+}
+.sidediv ul .ingeng span:not(:hover){
+    transition-duration: .7s;
+    color: white;
+    font-size: 18px; 
+}
+.sidediv ul .mat span:hover{
+    transition-duration: .7s;
+    color: #1b9dfa;   
+    font-size: 18.5px;
+}
+.sidediv ul .mat span:not(:hover){
+    transition-duration: .7s;
+    color: white;
+    font-size: 18px; 
+}
+.sidediv ul .med span:hover{
+    transition-duration: .7s;
+    color: #00ab59;
+    font-size: 18.5px; 
+}
+.sidediv ul .med span:not(:hover){
+    transition-duration: .7s;
+    color: white;
+    font-size: 18px; 
+
+}
+
+.sidediv ul li div img{
+    display: flex;
+}
+
+.img2{
+    width: 30px;
+    text-align: right;
+}
+
+.btnside{
+    background: #12192600;
+    color: rgba(255, 255, 255, 0.301);
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.btnside:hover{
+    color:white;
+    transition-duration: .7s;
+    cursor: pointer;
+}
+.btnside:focus{
+    outline: none;
+}
+
+.btnside:not(hover){
+    color:rgba(255, 255, 255, 0.301);
+    transition-duration: .7s;
+}
+
+@media  (max-width : 1280px){
+    .sidediv{
+        font-size: 5px; 
+    }
+
+    .img2{
+        text-align: center;
+    }
+
+    .sidediv Link{
+        font-size: 13px;
+        margin-left: 10%;
+        text-decoration: none;
+        text-align: center; 
+    }
+}
+/**/
+/**=====================================
+
+          Formularios de Datos
+          
+========================================**/
+
+.btnForm{
+    margin-right: 18%;
+    margin-top: 30px;
+    margin-bottom: 8%;
+    height: 45px;
+    width: 125px;
+    border-color: 1px solid rgba(230, 145, 18, 1);
+    border-style: none;
+    border-radius: 35px;
+    background-color: rgb(146, 108, 51);
+    box-shadow: 0px 3px 4px 1px rgb(0, 0, 0,.35);
+    color: white;
+    align-self: center;
+    font-size: 18px;
+    cursor: pointer;
+
+}
+.btnForm:hover{
+    transition-duration: .3s;
+    background-color: rgba(230, 145, 18, 0);
+    border: 3px solid rgba(230, 145, 18, 1);
+    box-shadow:inset 0px 0px 4px 1px rgba(230, 145, 18, 1);
+    
+}
+.btnForm:focus{
+    outline: none;
+}
+.datosN{
+    
+    display: inline-block;
+    margin-left: 25%; /*Esto mueve la tabla del lado izquierdo*/
+    padding-top: 2.5%;
+    /*margin-top: 2.5%;*/
+   /* border: 1px solid gray;*/
+    border-radius: 25px;
+    width: 70%;
+}
+.datosN div{
+    
+    margin: 1%;
+}
+
+.datosN h2{
+    font-size: 32px;
+    margin-left: -1%;
+    color: #1b9dfa;
+}
+.datosN h3{
+    margin-bottom: 2%;
+    margin-left: 2.5%;
+    color: white;
+}
+
+.datosN button{
+    margin-left: 1%;
+}
+.datosN label{
+    font-size: 15.2px;
+    margin-left: 5% ;
+    text-align: left;
+    font-weight: 400px;
+    margin-top: 4%;
+    color: whitesmoke;
+}
+
+.datosN label:after{content:":"; font-size: 18px;}
+
+.datosN input{
+    color: azure;
+    height: 35px;
+    margin-right: 10%;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 5px;
+    background-color: #425277;
+    box-shadow:inset 0px 0px 2px .1px rgba(0,0,0,.4);
+}
+
+.datosN input:focus{
+    outline: none;
+}
+
+.datosN input::placeholder{
+    color: rgba(255, 255, 255, 0.5);
+    padding-left:15px;
+}
+.datosN select{
+    color: #e6e6e6;
+    height: 45px;
+    margin-right: 10%;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 5px;
+    background-color: #425277;
+    box-shadow:inset 0px 0px 2px .1px rgba(0,0,0,.4);
+}
+
+.datosN textarea{
+    color: #e6e6e6;
+    height: 70px;
+    margin-right: 10%;
+    border-radius: 5px;
+    border-style: hidden;
+    padding: 5px;
+    background-color: #425277;
+    box-shadow:inset 0px 0px 2px .1px rgba(0,0,0,.4);
+}
+.datos{
+    padding-right: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: .2%;
+    box-shadow: 0px 0px 2px .6px rgba(0,0,0,0.25);
+    border-radius: 5px;
+}
+textarea {
+    resize: none;
+}
+
+.btnMat{
+    margin: 1%;
+    
+}
+
+
+/*
+=================================
+
+        Tab Matriculacion
+
+=================================
+*/
+
+
+
+.tabMat{
+  z-index: 5;
+  position: fixed;
+  display: flex;
+  margin-left: 21%;
+  background-color: #1b9dfa;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.657);
+  width: 100%;
+  
+}
+.ulTabMat{
+    
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+.btntab{
+    font-family: "Nunito Sans", sans-serif;
+    padding: 15px;
+    margin-right: 40%;
+    height:50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0);
+    border-style: none;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.65);
+    
+    
+}
+.btntab:hover{
+    color:#1b9dfa ;
+    transition-duration: .7s;
+    background-color: rgba(255, 255, 255, 0.808);
+    box-shadow: 0px 0px 15px rgba(0, 34, 114, 0.479);
+    
+}
+
+.btntab:not(hover){
+    transition-duration: .7s;
+}
+.ulTabMat .btntab{
+    cursor: pointer;
+}
+
+/* Tablas de Datos*/
+.textdiv{
+    display: flex;
+    color: white;
+    margin-top: -.5%;
+    margin-bottom: -2.8%;
+    width: 90%;
+}
+.textdiv-Tut{
+    margin-left: 5%;
+    display: flex;
+    color: white;
+    margin-top: -.5%;
+    margin-bottom: -2.8%;
+    width: 90%;
+}
+.texttable{
+    font-size: 18px;
+    margin-left: -4%;
+}
+.texttable2{
+    font-size: 18px;
+
+   margin-left: 4.5%;
+}
+
+.CompTab{
+    width: 70%;
+    padding-top: 3%;
+}
+
+.divTabla{
+    width: 95%;
+    z-index: 4;
+    margin-top: 3%;
+    
+}
+.ag-root-wrapper{
+    background-color: #121926a8 !important;
+    border-color: #12192600 !important;
+    border-radius: 5px !important;
+    box-shadow:  3px 3px 6px -2px rgba(0,0,0,0.7);
+}
+.ag-cell{
+    background-color: #121926a8;
+}
+.ag-header-cell{
+    background-color: rgba(230, 145, 18, 0.609);
+    font-family: "Nunito Sans", sans-serif;
+}
+.colDef .headerClass{
+    background-color: rgba(230, 145, 18, 0.609) !important;
+}
+.btnTable{
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 6%;
+    height: 45px;
+    width: 125px;
+    border-color: 1px solid rgba(230, 145, 18, 1);
+    border-style: none;
+    border-radius: 35px;
+    background-color: rgb(146, 108, 51);
+    box-shadow: 0px 6px 4px -4px rgb(0, 0, 0,.35);
+    color: white;
+    align-self: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btnTable:hover{
+    transition-duration: .3s;
+    background-color: rgba(230, 145, 18, 0);
+    border: 3px solid rgba(230, 145, 18, 1);
+    box-shadow:inset 0px 0px 4px 1px rgba(230, 145, 18, 1);
+}
+
+.ag-body-viewport-wrapper.ag-layout-normal {
+    overflow-x: scroll;
+    
+  }
+  
+  .ag-root ::-webkit-scrollbar {
+    width: 2em;
+    height: 2em
+}
+.ag-root ::-webkit-scrollbar-button {
+    background-color: rgba(27, 27, 27, 0);
+    
+    
+}
+.ag-root ::-webkit-scrollbar-thumb {
+    background-color: #1ea1ff52;
+    
+    border-radius: 50px;
+}​
+
+.ag-root ::-webkit-scrollbar-track-piece {
+    background-color: rgb(255, 255, 255);
+    box-shadow:inset 0px 0px 7px 1px rgb(0, 0, 0,.35);
+    height: 60px;
+}
