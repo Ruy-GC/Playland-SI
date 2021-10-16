@@ -1,6 +1,14 @@
 # Playland-SI
 Software  designed to register entries and exits at a day care center while keeping information about the children and the people authorized to pick them up.
+### Info:
+Developed during our High school's sixth semester during Jan-Jun 2020. 
+This is a new repository due to problems in the previous account where it was located
 
+### Created by 
+* Vicente Viera Guízar
+* Ruy Guzmán Camacho
+* David Fernando Soto Leal
+* Rafael Juarez Chavez Badillo
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -72,10 +80,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Info:
-Developed during sixth semester of high shool durring february-june
-### Created by 
-* Vicente Viera Guízar
-* Ruy Guzmán Camacho
-* David Fernando Soto Leal
-* Rafael Juarez Chavez Badillo
+
